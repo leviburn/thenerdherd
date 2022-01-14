@@ -1,0 +1,25 @@
+{
+  "name": "thenerdherd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leviburn/thenerdherd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leviburn/thenerdherd/issues"
+  },
+  "homepage": "https://github.com/leviburn/thenerdherd#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "public": "^0.1.5",
+    "tailwindcss": "^3.0.13"
+  }
+}
